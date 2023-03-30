@@ -1,0 +1,8 @@
+.pageProdutos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardProdutos{
+    display: flex;
+}
