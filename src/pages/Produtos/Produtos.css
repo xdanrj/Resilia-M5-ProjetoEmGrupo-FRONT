@@ -1,8 +1,19 @@
 .pageProdutos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
 }
+
 .cardProdutos{
-    display: flex;
+display: flex;
+margin: 5%;
+}
+
+.tituloListaProdutos{
+background-color: black;
+width: 100%;
+text-align: center;
+color: ivory;
+font-size: 3rem;
 }
