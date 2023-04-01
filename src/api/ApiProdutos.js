@@ -11,7 +11,8 @@ export async function postProdutos(obj) {
 }
 
 export async function deleteProdutos(parametro) {
-  await api.delete(`/produtos/id/${parametro}`)
+  await api.delete(`/produtos/id/${parametro}`);
+  alert("Produto Deletado");
 }
 export async function atualizarProdutos(parametro, obj) {
   await api.put(`/produtos/id/${parametro}`, obj)

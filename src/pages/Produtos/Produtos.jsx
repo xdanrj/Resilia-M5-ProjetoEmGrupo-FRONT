@@ -21,6 +21,7 @@ const [produtos, setProdutos] = useState([]);
   <div className="cardProdutos">
           {produtos ? produtos.map((item) => (
           <CardProdutos
+          id={item.id}
           img={item.img}
           nome={item.nome}
           cor={item.cor}
