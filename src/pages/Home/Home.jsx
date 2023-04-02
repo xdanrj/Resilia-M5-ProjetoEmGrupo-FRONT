@@ -1,62 +1,121 @@
-import "./carrossel.css"
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
+import "./Home.css";
 
-const Home = () => {
+function Home() {
     return (
-       
-<div className="containertxt">
+        <div className="container text-center" style={{ marginTop: '50px' }}>
+            <h2>A maior loja física e digital de eletrônicos da Zona Oeste</h2>
+            <div style={{ width: '100%' }}>
+                <div className="Carrossel" style={{ width: '25%', display: 'inline-block', margin: '0 auto' }}>
+                    <Carousel fade>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://api.lorem.space/image/watch?w=720&h=720"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?xbox"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?playstation4"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                <div className="Carrossel" style={{ width: '25%', display: 'inline-block', margin: '0 auto' }}>
 
-        <h1>A maior loja digital e física de eletrônicos da Zona Oeste.</h1>
-        <div className="row" id="lista"/>
-        
-            
+                    <Carousel fade>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?keyboard"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?jbl"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?earphone"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                <div className="Carrossel" style={{ width: '25%', display: 'inline-block', margin: '0 auto' }}>
 
-    <div classNameName="container">
-        <button className="arrow-left control" aria-label="Previous image">◀</button>
-        <button className="arrow-right control" aria-label="Next Image">▶</button>
-        <div className="gallery-wrapper">
-            <div className="gallery">
-                <img src="https://api.lorem.space/image/watch?w=250&h=250" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?xbox" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?playstation4" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?headset" className="item /current-item"/>
-                <img src="./img/imagem5.jpg" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?jbl" className="item /current-item"/>
-                <img src="https://api.lorem.space/image/watch?w=250&h=250" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?earphone" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?playstation4" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?laptop" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?headset" className="item /current-item"/>
-                <img src="https://api.lorem.space/image/watch?w=250&h=250" className="item /current-item"/>
-                <img src="./img/imagem4.jpg" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?xbox" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?headset" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?laptop" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?jbl" className="item /current-item"/>
-                <img src="https://api.lorem.space/image/watch?w=250&h=250" className="item /current-item"/>
-                <img src="./img/imagem3.jpg" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?xbox" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?playstation4" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?headset" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?jbl" className="item /current-item"/>
-                <img src="https://api.lorem.space/image/watch?w=250&h=250" className="item /current-item"/>
-                <img src="./img/imagem2.jpg" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?earphone" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?playstation4" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?laptop" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?headset" className="item /current-item"/>
-                <img src="https://api.lorem.space/image/watch?w=250&h=250" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?xbox" className="item /current-item"/>
-                <img src="./img/imagem1.jpg" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?headset" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?laptop" className="item /current-item"/>
-                <img src="https://source.unsplash.com/random/250x250/?jbl" className="item /current-item"/>
+                    <Carousel fade>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?playstation4"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?computer"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?laptop"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                <div className="Carrossel" style={{ width: '25%', display: 'inline-block', margin: '0 auto' }}>
+
+                    <Carousel fade>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?headset"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?jbl"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100"
+                                src="https://source.unsplash.com/random/720x720/?earphone"
+                                alt="Image "
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-    
-    
-)
-    }
+    );
+}
 
-export default Home
+export default Home;
+
+

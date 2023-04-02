@@ -15,7 +15,7 @@ const [produtos, setProdutos] = useState([]);
 }, []);
 
   return (
-  <div className="pageProdutos  mb-5">
+  <div className="pageProdutos  mb-1">
   <h1 className="tituloListaProdutos"> Lista de Produtos </h1>
 
   <div className="cardProdutos">

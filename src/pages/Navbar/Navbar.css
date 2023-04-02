@@ -1,0 +1,15 @@
+.navbarup {
+
+    height: 60px; /* altura da navbar */
+    align-items: center ;
+    justify-content: space-between;
+    
+  }
+
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+
+
+ 
+ 
