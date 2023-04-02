@@ -1,5 +1,14 @@
 .container{
-    background-color: rgb(255, 255, 255);
+  
+   
+    align-items: center;
+    justify-content: center;
+    
+}
+.divTextos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h2{
@@ -13,4 +22,8 @@ margin: 20%;
 }
 p{
     font-size: 1.3rem;
+}
+.botaoDeletar{
+    display: flex;
+    justify-content: center;
 }
