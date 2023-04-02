@@ -56,12 +56,12 @@ main{
 
 
 .btn{
-    width: 15%;
+    width: 100%;
 }
 
-.mb-3{
-    width: 75%;
+.mb-1{
+    width: 100%;
 }
 .form-label {
-    width: 20% !important;
+    width: 100% !important;
   }
