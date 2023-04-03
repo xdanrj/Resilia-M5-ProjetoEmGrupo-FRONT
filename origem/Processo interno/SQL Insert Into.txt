@@ -15,4 +15,4 @@ INSERT INTO fornecedores (id,nome,endereco,cnpj) VALUES (1,'Atacadista Eletrôni
 
 
 //CLIENTES
-INSERT INTO clientes (id,nome,email,cpf,cep) VALUES (1,'Pedro Andrade Mariano','andrade@yahoo.com','196.164.129-96','23842-283'), (2,'Maylah Fonseca da Silva','maylah@gmail.com','183.182.173-45','28137-282'), (3,'Myllany Hollanda Pereira','hollanda.rj@gmail.com','124.183.186-69','28429-293'), (4,'Michel Castanheira pinto','castanha@gmail.com','134.134.142-70','18328-382'), (5,'Hugo dos Santos Alves','hugu@gmail.com','189.148.197-95','48218-293'), (6,'Hevelyn Costa Golfinho','hevelynrow@gmail.com','189.138.196-95','49229-392');
+INSERT INTO clientes (id,nome,email,cpf,cep) VALUES (1,'Pedro Andrade Mariano','andrade@yahoo.com','196.164.129-96','23842-283'), (2,'Maylah Fonseca da Silva','maylah@gmail.com','183.182.173-45','28137-282'), (3,'Myllany Hollanda Pereira','hollanda.rj@gmail.com','124.183.186-69','28429-293'), (4,'Michel Castanheira Vitalinno','castanha@gmail.com','134.134.142-70','18328-382'), (5,'Hugo dos Santos Alves','hugu@gmail.com','189.148.197-95','48218-293'), (6,'Hevelyn Costa Golfinho','hevelynrow@gmail.com','189.138.196-95','49229-392');
