@@ -16,7 +16,7 @@ Execute o frontend
 $ npm run dev
 
 
-- Ferramentas e linguagens utilizadas no projeto:
+Ferramentas e linguagens utilizadas no projeto:
 • VS code 
 • MySql 
 • Node.js 
