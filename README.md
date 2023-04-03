@@ -16,7 +16,7 @@ Execute o projeto seguindo os passos abaixo:
 Abra um terminal, e dentro da pasta do projeto e execute o comando:
 
 
-Instale as dependências 
+Instale as dependências. 
 
 
 $ npm install 
