@@ -47,11 +47,8 @@ SLIDE FEITO PELO CANVA ⬇
 
 
 
+
 ![1](https://user-images.githubusercontent.com/116725554/229649183-1c5731d1-2d2f-4c25-807f-335c3310aa9e.png)
-
-
-
-
 
 
 
@@ -59,15 +56,7 @@ SLIDE FEITO PELO CANVA ⬇
 
 
 
-
-
-
-
 ![3](https://user-images.githubusercontent.com/116725554/229649214-d9952f95-21d7-4c11-9b4c-93642e96c9da.png)
-
-
-
-
 
 
 
@@ -75,17 +64,7 @@ SLIDE FEITO PELO CANVA ⬇
 
 
 
-
-
-
-
-
 ![5](https://user-images.githubusercontent.com/116725554/229649255-99fcfc44-bb36-411c-9696-417b3e96cd1e.png)
-
-
-
-
-
 
 
 
@@ -93,18 +72,6 @@ SLIDE FEITO PELO CANVA ⬇
 
 
 
-
-
-
-
-
-
 ![7](https://user-images.githubusercontent.com/116725554/229649298-cd4a90c7-3da5-430b-a12c-336cc69bfb5d.png)
-
-
-
-
-
-
 
 
