@@ -13,7 +13,7 @@ Execute o projeto seguindo os passos abaixo:
 
 
 
-Abra um terminal, e dentro da pasta do projeto e execute o comando:
+Abra um terminal, e dentro da pasta do projeto execute o comando:
 
 
 Instale as dependências. 
